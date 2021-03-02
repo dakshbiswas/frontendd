@@ -1,0 +1,8 @@
+<mat-toolbar color="primary">
+<span><a mat-icon-button routerLink="/" >Job Portal</a></span>
+<span class="example-spacer"></span>
+<button *ngIf="!loggedIn" mat-raised-button color="accent" routerLink="/registration" >Register</button>
+<button *ngIf="!loggedIn" mat-raised-button color="accent" routerLink="/login" >Login</button>
+<span *ngIf="loggedIn" mat-icon-button>{{name}}</span>
+<button *ngIf="loggedIn" (click)="logoutUser()" mat-raised-button color="accent">Logout</button>
+</mat-toolbar>

@@ -1,0 +1,10 @@
+.example-spacer{
+    flex: 1 1 auto;
+    background-color:#FCC;
+}
+
+button{
+    margin-left: 20px;
+}
+
+  

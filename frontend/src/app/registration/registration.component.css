@@ -1,0 +1,16 @@
+.register-block {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    padding-top: 2px;
+   
+    align-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.head{
+    padding-top: 11px;
+    width: 28%;
+    margin: auto;
+}
